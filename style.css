@@ -1,0 +1,71 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-display: #5D4037;
+    margin: 0;
+    padding: 0;
+    background-color:#F7EDE2;
+}
+
+.resume {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+}
+
+.personal-info {
+    text-align: center;
+}
+
+#profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 0%;
+    margin-bottom: 10px;
+    border-style: double;
+    border-color: #5D4037;
+    filter: blur(3px);
+}
+
+
+
+h1, h2 {
+    color: #5D4037;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+h2 {
+    font-size: large;
+}
+
+ul {
+    list-style-type: square;
+    padding: 0;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #5D4037;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #937b61;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .resume {
+        width: 80%;
+    }
+}
